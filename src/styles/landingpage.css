@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    
+}
+.landingpage{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Library-Wallpaper.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.selectLoginType{
+    text-align: center;
+    height: 400px;
+    width: 700px;
+    background-color: lightgray;
+    margin-left: 370px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+.home{
+    padding-top: 200px;
+}
+ h1{
+    margin-top: 0px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.btn1{
+    border: 3px solid orange;
+    padding: 8px 16px;
+}
+.btn2{
+    border: 3px solid green;
+    padding: 8px 16px;
+}
+.btn1:hover{
+    color: green;
+    background-color:orange;
+}
+.btn2:hover{
+    color: orange;
+    background-color:green;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
