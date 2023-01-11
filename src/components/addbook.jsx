@@ -31,31 +31,31 @@ const AddBook = () => {
 
     return (
         <div className="addbook">
-            <h1>Add a book</h1>
+            <h1>Add a Book</h1>
             <div className="form">
                 <form action="" onSubmit={handleSubmit}>
                     <div className="title">
-                        <input required value={title} on onChange={(e)=>setTitle(e.target.value)}  type="text" placeholder="title of the book" />
+                        <input required value={title} on onChange={(e)=>setTitle(e.target.value)}  type="text" placeholder="Title of the book" />
                     </div>
                     <div className="authors">
-                    <input required value={authors} on onChange={(e)=>setAuthors(e.target.value)}  type="text" placeholder="author of the book" />
+                    <input required value={authors} on onChange={(e)=>setAuthors(e.target.value)}  type="text" placeholder="Author of the book" />
                     </div>
                     <div className="categories">
-                    <input required value={categories} on onChange={(e)=>setCategory(e.target.value)}  type="text" placeholder="category of the book" />
+                    <input required value={categories} on onChange={(e)=>setCategory(e.target.value)}  type="text" placeholder="Category of the book" />
                     </div>
                     <div className="pageCount">
-                    <input required value={pageCount} on onChange={(e)=>setPage(e.target.value)}  type="number" placeholder="page count of the book" />
+                    <input required value={pageCount} on onChange={(e)=>setPage(e.target.value)}  type="number" placeholder="Page count of the book" />
                     </div>
                     <div className="shortDescription">
-                        <textarea required value={shortDescription} on onChange={(e)=>setShort(e.target.value)}  name="" id="" placeholder="short description of the book" cols="30" rows="10"></textarea>
+                        <textarea required value={shortDescription} on onChange={(e)=>setShort(e.target.value)}  name="" id="" placeholder="Short description of the book" cols="30" rows="10"></textarea>
                     </div>
                     <div className="longDescription">
-                    <textarea required value={longDescription} on onChange={(e)=>setLong(e.target.value)}  name="" id=""  placeholder="long description of the book" cols="30" rows="10"></textarea>
+                    <textarea required value={longDescription} on onChange={(e)=>setLong(e.target.value)}  name="" id=""  placeholder="Long description of the book" cols="30" rows="10"></textarea>
                     </div>
                     <div className="thumbnailUrl">
-                    <input required value={thumbnailUrl} on onChange={(e)=>setUrl(e.target.value)}  type="text" placeholder="thumbnailUrl of the book" />
+                    <input required value={thumbnailUrl} on onChange={(e)=>setUrl(e.target.value)}  type="text" placeholder="ThumbnailUrl of the book" />
                     </div>
-                    <button>Add book</button>
+                    <button id="btn_book">Add book</button>
                 </form>
             </div>
         </div>

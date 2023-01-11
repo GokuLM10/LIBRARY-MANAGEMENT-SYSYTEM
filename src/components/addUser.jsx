@@ -33,18 +33,18 @@ const AddUser = () => {
             <div className="form">
                 <form action="" onSubmit={handleSubmit}>
                     <div className="name">
-                        <input value={name} on onChange={(e)=>setName(e.target.value)} type="text" placeholder="enter name of the user" />
+                        <input value={name} on onChange={(e)=>setName(e.target.value)} type="text" placeholder="Enter name of the user" />
                     </div>
                     <div className="age">
-                        <input value={age} on onChange={(e)=>setAge(e.target.value)} type="number" minLength='1' placeholder="enter age of the user" />
+                        <input value={age} on onChange={(e)=>setAge(e.target.value)} type="number" minLength='1' placeholder="Enter age of the user" />
                     </div>
                     <div className="email">
-                        <input value={email} on onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="enter your email" />
+                        <input value={email} on onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="Enter your email" />
                     </div>
                     <div className="phone_no">
-                        <input value={phoneNumber} on onChange={(e)=>setPhone(e.target.value)} type="tel" minLength='10' maxLength='10' placeholder="enter your phone number" />
+                        <input value={phoneNumber} on onChange={(e)=>setPhone(e.target.value)} type="tel" minLength='10' maxLength='10' placeholder="Enter your phone number" />
                     </div>
-                    <button>Add User</button>
+                    <button id="btn_user">Add User</button>
                 </form>
             </div>
         </div>

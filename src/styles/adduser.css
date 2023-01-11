@@ -1,3 +1,45 @@
+.body{
+    margin: 0;
+}
 .adduser{
-    text-align: center;
+        background-color: lightblue;
+        text-align: center;
+        height: 500px;
+        width: 500px;
+        background-color: lightgray;
+        margin-left: 500px;
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 6px 6px 6px black;
+}
+.name input{
+    margin-top: 10px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.age input{
+    margin-top: 28px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.email input{
+    margin-top: 10px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.phone_no input{
+    margin-top: 10px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+#btn_user{
+    margin-top: 25px;
 }

@@ -1,3 +1,65 @@
+.body{
+    margin: 0;
+    
+}
 .addbook{
- text-align: center;
+    background-color: lightblue;
+    text-align: center;
+    height: 800px;
+    width: 500px;
+    background-color: lightgray;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+.title input{
+    margin-top: 10px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.authors input{
+    margin-top: 15px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.categories input{
+    margin-top: 15px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.pageCount input{
+    margin-top: 15px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.shortDescription textarea{
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.longDescription textarea{
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+.thumbnailUrl input{
+    margin-top: 15px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+#btn_book{
+    margin-top: 20px;
 }
